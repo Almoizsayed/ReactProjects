@@ -1,10 +1,16 @@
 function Fruit() {
-  const fruits = ["banana", "Mango", "grapes"];
+  const fruits = [
+    { name: "Banana", price: 10 },
+    { name: "Apple", price: 100 },
+    { name: "Grapes", price: 40 },
+  ];
   return (
     <div>
       <ul>
         {fruits.map((fruit) => (
-          <li>{fruit} </li>
+          <li>
+            {fruit.name} {fruit.price}
+          </li>
         ))}
       </ul>
     </div>
