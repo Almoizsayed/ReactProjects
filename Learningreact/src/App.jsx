@@ -1,5 +1,6 @@
 import reactLogo from "./assets/react.svg";
 import Counter from "./Components/Counter";
+import Form from "./Components/Form";
 import Fruit from "./Components/Fruit";
 // import Hello from "./Components/Hello";
 
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Counter />
+      <Form />
     </div>
   );
 }
