@@ -8,9 +8,7 @@ function Fruit() {
     <div>
       <ul>
         {fruits.map((fruit) => (
-          <li>
-            {fruit.name} {fruit.price}
-          </li>
+          <Fruit name={fruit.name} price={fruit.price} />
         ))}
       </ul>
     </div>
